@@ -1,0 +1,31 @@
+.row_table {
+	margin-left:-5px;
+	margin-right:-5px;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+.row_table::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+table.column_tale {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+table.column_tale th, table.column_tale td {
+	text-align: left;
+	padding: 16px;
+}
+
+table.column_tale tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
